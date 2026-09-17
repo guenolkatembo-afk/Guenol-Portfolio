@@ -1,0 +1,183 @@
+body{
+    background: radial-gradient(#005BE3 0%, #00327d 100%);
+    color:white;
+    margin: 0px;
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color:black;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+.nav-entete-list{
+    border-left: 2px solid black;
+    padding-left: 11px; 
+}
+
+.nav-entete ul{
+    align-items: center;
+    display: flex; 
+    list-style: none;
+    gap: 10px;
+    font-size: 1.25em;
+}
+.Accueil{
+   border-left: 2px solid white; 
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+h1{
+    font-size: 1.5em;
+}
+.mon-profil{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    gap: 60px;
+}
+.photo-principal{
+    width: 617px;
+    height: 471px;
+    border-radius: 23px;
+}
+.mon-profil-h1{
+    padding-right: 80px;
+    padding-left: 40px;
+    line-height: 30px;
+    text-align: justify;
+}
+hr{
+    height: 3px;
+    color:white;
+    border-width:0;
+    background-color:white;
+    margin-top: 70px;
+}
+.nav-piedpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0px 50px 0px;
+}
+.autre-nav-piedpage{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    line-height: 20px;
+}
+.autre-nav-piedpage a{
+    color: white;
+}
+.CTA{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    padding-left: 20px;
+    gap: 20px;
+}
+.cta-arrow{
+    width: 60px;
+    height: 50px;
+    border-left: 2px solid #716e6e;
+    border-color: #716e6e;
+    padding-top: 10px;
+}
+strong{
+    font-size: 1.25em;
+}
+mark{
+    background-color: #00327d;
+    color:white
+}
+.contact-h1-cta{
+    display: flex;
+    gap: 300px;
+    margin: auto;
+    padding: 50px 50px 50px 150px ;
+}
+.contact-moi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 150px;
+}
+.contact-moi div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: #00327d;
+}
+.form-ligne{
+    display: flex;
+    flex-direction: row;
+}
+label {
+    margin-bottom: 3px;
+}
+input[type='submit'] {
+  width: 150px;
+  margin: auto;
+}
+input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+}
+.h1-contact, .h1-projet {
+    font-weight: lighter;
+    font-size: 2em;
+}
+.h1-contact strong{
+    font-weight: bold;
+}
+h2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    width: 264px;
+    height: 64px;
+    border:1px solid white;
+    font-size: 1.5em;
+    border-radius: 0px 10px 10px 0px;
+}
+.p-crowdfunding, .p-coworking {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    line-height: 30px;
+    gap: 100px;
+    padding-left: 240px;
+}
+.h1-projet {
+    padding: 50px 0px 50px 15px;
+}
+.image-crowd, .image-cowork {
+    width: 370px;
+    height: 283px;
+    border-radius: 23px;
+    padding-right: 10px;
+}
