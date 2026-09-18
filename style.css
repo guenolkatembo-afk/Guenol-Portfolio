@@ -146,7 +146,7 @@ textarea {
   border-radius: 3px;
   border: none;
 }
-.h1-contact, .h1-projet {
+.h1-contact, .h1-projet, .h1-cv {
     font-weight: lighter;
     font-size: 2em;
 }
@@ -164,7 +164,7 @@ h2 {
     font-size: 1.5em;
     border-radius: 0px 10px 10px 0px;
 }
-.p-crowdfunding, .p-coworking {
+.p-crowdfunding, .p-coworking, .p-competence, .s-experience {
     display: flex;
     justify-content: space-around;
     text-align: justify;
@@ -172,12 +172,54 @@ h2 {
     gap: 100px;
     padding-left: 240px;
 }
-.h1-projet {
+.h1-projet, .h1-cv {
     padding: 50px 0px 50px 15px;
 }
-.image-crowd, .image-cowork {
+.image-crowd, .image-cowork, .image-ik {
     width: 370px;
     height: 283px;
     border-radius: 23px;
     padding-right: 10px;
+}
+.image-ik2 {
+    width: 283px;
+    height: 370px;
+    border-radius: 23px;
+    padding-right: 10px;
+}
+.h2-cv{
+    background-color: white;
+    color: #00327d;
+}
+h3 {
+    font-weight: lighter;
+    font-size: 1.25em;
+}
+h3 strong{
+    font-weight: bold;
+    font-size: 1em;
+}
+.Etudes {
+    display: block;
+    text-align: justify;
+    line-height: 25px;
+    gap: 100px;
+    padding-left: 240px;
+    padding-bottom: 50px;
+}
+.p-competence{
+    display: block;
+    text-align: justify;
+    line-height: 25px;
+    gap: 100px;
+    padding:0px 100px 10px 240px;   
+}
+a:hover {
+    color: #005BE3;
+}
+a:active {
+    border-bottom: 3px solid salmon;
+}
+.autre-nav-piedpage :focus{
+    background-color: rgb(175, 26, 209);
 }
